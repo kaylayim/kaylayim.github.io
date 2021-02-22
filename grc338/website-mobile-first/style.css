@@ -1,0 +1,94 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+body{
+	text-align: center;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+}
+nav ul{
+	padding: 0;
+	word-spacing: 2em;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+nav ul li a {
+    color: #596C5A;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #97B898;
+}
+figure{
+	margin: 0;
+	padding: 0;
+}
+main{
+	margin: auto 1em auto 1em;
+}
+article{
+	margin: auto 1em auto 1em;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+h2{
+	font-size:2em;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #596C5A;
+	padding-bottom: 0.25em;
+	margin-bottom: 0.5em;
+}
+h3{
+	text-transform: uppercase;
+	font-size: 1.4em;
+	color: #596C5A;
+	padding-bottom: 0.25em;
+	border-bottom: 2.5pt solid rgb(151, 184, 152);
+	margin: 1em 25% 1em 25%;
+}
+h4{
+	text-transform: lowercase;
+	margin: 1em 1em 0.5em 1em;
+}
+p{
+    color: rgb(75,75,75);
+    line-height: 1.25em;
+}
+.price{
+	font-style: italic;
+	margin-bottom: 2em;
+}
+footer{
+	background-color: #596C5A;
+	color: rgb(255,255,255);
+	margin: 0;
+	padding: 0.5em;
+}
+footer h3{
+	font-size: 1em;
+	letter-spacing: 0.05em;
+	color: rgb(255,255,255);
+	border-bottom: none;
+	margin: 0.5em auto 0em auto;
+}
+footer p{
+	font-size: 0.8em;
+	color: rgb(255,255,255);
+	margin: 0.5em auto 0em auto;
+}
