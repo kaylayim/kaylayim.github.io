@@ -1,0 +1,118 @@
+/*CSS DOCUMENT*/
+
+img {
+    width: 100%; 
+}
+
+/*Please don’t change this CSS stylesheet for the content hierarchy assginment */
+h1, h2, h3, h4, p {
+    font-family: 'Poppins', sans-serif;
+}
+body{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+nav ul{
+	padding: 0;
+	word-spacing: 2em;
+}
+nav ul li{
+    display: inline;
+    list-style-type: none;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+nav ul li a {
+    color: #596C5A;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: #97B898;
+}
+figure{
+	margin: 0;
+	padding: 0;
+}
+main{
+	margin: auto 1em auto 1em;
+}
+article{
+	margin: auto 1em auto 1em;
+	text-align: left;
+}
+ul{
+	padding: 0;
+}
+li{
+	list-style: none;
+}
+h2{
+	font-size:2.5em;
+	text-align: left;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	color: #596C5A;
+	padding-bottom: 0.25em;
+	margin-bottom: 0.5em;
+}
+h3{
+	text-transform: uppercase;
+	font-size: 1.4em;
+	color: #596C5A;
+	padding-bottom: 0.25em;
+	border-bottom: 2.5pt solid rgb(151, 184, 152);
+	margin: 1em 25% 1em 25%;
+}
+h4{
+	font-size: 1.1em;
+	text-transform: lowercase;
+	margin: 1em 1em 0.5em 1em;
+}
+p{
+    color: rgb(75,75,75);
+    line-height: 1.5em;
+}
+.price{
+	font-style: italic;
+	margin-bottom: 3.5em;
+}
+.center{
+	text-align: center;
+}
+a:link{
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(75,75,75);
+}
+footer{
+	background-color: #596C5A;
+	color: rgb(255,255,255);
+	margin: 1.5em 0em 0em 0em;
+	padding: 0.5em;
+}
+footer p{
+	text-align: center;
+	font-size: 0.8em;
+	color: rgb(255,255,255);
+	margin: 0.75em auto 0.75em auto;
+}
+@media screen and (min-width: 60em){
+	main{
+		max-width: 50em;
+		margin: auto;
+	}
+	article{
+		max-width: 50em;
+		margin: auto;
+	}
+	nav ul{
+		padding: 0;
+		word-spacing: 5em;
+	}
+	nav ul li{
+	    font-size: 1.5em;
+	}
+}
