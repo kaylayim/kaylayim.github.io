@@ -1,0 +1,61 @@
+/*CSS document*/
+
+body {
+   
+}
+
+h2, h3 {
+    font-family: granville, serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #263D42;
+}
+
+p{
+    font-family: granville, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #263D42;
+}
+
+figcaption{
+    font-family: granville, serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #5A6C73;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: granville, serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #5A6C73;
+}
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+    font-size: 1.125em;
+}
+
+a {
+    text-decoration: none;
+}
+
+div.container {
+    max-width: 40em;
+    margin: auto;
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
